@@ -10,7 +10,7 @@ public class TestMain {
 
         String result = m.greet();
 
-        assertEquals("Fala, galado!!", result);
+        assertEquals("Fala, galado!", result);
 
     }
 }
