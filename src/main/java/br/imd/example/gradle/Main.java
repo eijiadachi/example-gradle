@@ -2,6 +2,8 @@ package br.imd.example.gradle;
 
 public class Main
 {
+	public static final String DEFAULT_GREETING = "Fala, galado!";
+
 	public Main()
 	{
 
@@ -9,7 +11,7 @@ public class Main
 
 	public String greet()
 	{
-		return "Fala, galado!!";
+		return DEFAULT_GREETING;
 	}
 
 	public static void main(String args[])
